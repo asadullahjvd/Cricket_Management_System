@@ -1,11 +1,11 @@
-# Cricket Match Simulator (C++)
+# Cricket Match Simulator (C++) 🏏
 
 A console-based Cricket Match Simulator written in C++.  
 This program simulates limited-overs cricket matches between international teams defined in a local teams file. It supports both automatic and manual ball-by-ball scoring, maintains a player database, records match highlights,commentary,officials,sponsers and scorecards, and updates career statistics and all other aspects of a Cricket Match.
 
 ---
 
-## Table of Contents
+🎯 Table of Contents
 
 - Overview
 - Features
@@ -31,7 +31,7 @@ This program simulates limited-overs cricket matches between international teams
 
 ---
 
-## Overview
+📈 Overview
 
 This program simulates a two-innings limited-overs cricket match (1–50 overs per innings). It uses text files to store teams and player career records. Users can:
 
@@ -45,7 +45,7 @@ The simulator includes basic commentary messages and randomly chooses match offi
 
 ---
 
-## Features
+🔥 Features
 
 - Multiple pre-defined international teams (can be edited).
 - Automatic mode — simulator picks outcomes with probabilities.
@@ -59,7 +59,7 @@ The simulator includes basic commentary messages and randomly chooses match offi
 
 ---
 
-## Requirements
+⭕ Requirements
 
 - C++ compiler supporting C++11 (or later).
 - Standard library i/o and file operations.
@@ -67,7 +67,7 @@ The simulator includes basic commentary messages and randomly chooses match offi
 
 ---
 
-## Files created / expected
+🌀 Files created / expected
 
 - `teams.txt` — team definitions and squads. Created automatically if not present.
 - `players_db.txt` — career statistics database for players. Created/initialized automatically if not present.
@@ -77,7 +77,7 @@ The program executable (example `simulator`) is produced when you compile the C+
 
 ---
 
-## Data formats
+💻 Data formats
 
 ### teams.txt
 - Human-editable.
@@ -118,7 +118,7 @@ The program executable (example `simulator`) is produced when you compile the C+
 
 ---
 
-## How the simulation works
+🎮 How the simulation works
 
 ### Match flow
 1. Load or create `teams.txt` and `players_db.txt`.
@@ -155,7 +155,7 @@ o	2% chance of wicket
 
 ---
 
-## Building and running
+🧊 Building and running
 
 1. Save the source (for example `main.cpp`) with the provided program.
 2. Compile:
@@ -178,7 +178,7 @@ When you first run the program it will create `teams.txt` and `players_db.txt` i
 
 ---
 
-## Usage / Menu options
+📝 Usage / Menu options
 
 Main menu options:
 1. Play New Match — start the whole match setup and simulation.
@@ -198,7 +198,7 @@ When prompted during Play New Match:
 
 ---
 
-## Input validation rules
+📜 Input validation rules
 
 - Stadium / City / Country: cannot be blank or contain digits.
 - Capacity: must be integer 1–132000.
@@ -208,7 +208,7 @@ When prompted during Play New Match:
 
 ---
 
-## Code structure & important functions
+🧮 Code structure & important functions
 
 High-level structures:
 - Venue, Match, Team, PlayerRecord, PlayerPerformance, ball, Innings.
@@ -232,7 +232,7 @@ Files are read/written using standard `ifstream`/`ofstream` calls. The program u
 
 ---
 
-## How to add or edit teams / players
+🎙️ How to add or edit teams / players
 
 - teams: Edit `teams.txt` manually. Follow existing formatting:
   - For each team:
@@ -248,7 +248,7 @@ Important: Keep pipe-separated fields and ensure the player name exactly matches
 
 ---
 
-## Troubleshooting & known limitations
+🧤 Troubleshooting & known limitations
 
 - If `teams.txt` or `players_db.txt` are malformed (missing fields, wrong counts) the loader may mis-parse or skip entries.
 - The match simulation uses a simplified probability model for outcomes — not a full cricket engine.
@@ -260,7 +260,7 @@ Important: Keep pipe-separated fields and ensure the player name exactly matches
 
 ---
 
-## Suggested improvements / future enhancements
+📌✔️ Suggested improvements / future enhancements
 
 - Add per-bowler over limit enforcement.
 - More advanced probability model using player-specific batting/bowling skills.
@@ -273,7 +273,7 @@ Important: Keep pipe-separated fields and ensure the player name exactly matches
 
 ---
 
-## License
+📝🔍 License
 
 This simulator example is provided as-is for learning and small-scale use. Modify and reuse as you wish. No warranty.
 
