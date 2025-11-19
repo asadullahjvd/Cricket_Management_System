@@ -4,7 +4,7 @@ A console-based Cricket Match Simulator written in C++.
 This program simulates limited-overs cricket matches between international teams defined in a local teams file. It supports both automatic and manual ball-by-ball scoring, maintains a player database, records match highlights,commentary,officials,sponsers and scorecards, and updates career statistics and all other aspects of a Cricket Match.
 
 ---
-👥 Contributors
+**👥 Contributors**
 
 Special thanks to my amazing groupmates who contributed to the Cricket Match Simulator project:
 
@@ -15,6 +15,7 @@ Special thanks to my amazing groupmates who contributed to the Cricket Match Sim
 🧑‍💻 Rida Amir
 
 🔗 GitHub: github.com/TechQueen85
+
 ---
 
 🎯 Table of Contents
